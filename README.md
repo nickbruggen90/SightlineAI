@@ -19,19 +19,3 @@ Project Sightline AI is a cutting-edge tool designed to empower network field te
 - Optional features planned: auto-save notes, markdown export, font-size control, and voice commands  
 
 ---
-
-## Getting Started
-
-### Prerequisites
-
-- OpenAI API key ([Get your API key here](https://platform.openai.com))  
-- Compatible AR glasses (XREAL Air 2 recommended)  
-- Host device with USB-C video output (Windows, Linux, macOS, or Android with DeX)  
-- Python 3.9+ installed  
-
-### Installation
-
-```bash
-git clone https://github.com/nickbruggen90/ProjectSightlineAI.git
-cd ProjectSightlineAI
-pip install -r requirements.txt
