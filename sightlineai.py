@@ -101,7 +101,7 @@ class SightlineAI:
                 
                 # Handle commands
                 if user_input.lower() in ['quit', 'exit']:
-                    print("👋 Goodbye!")
+                    print("Goodbye!")
                     break
                 elif user_input.lower() == 'clear':
                     os.system('cls' if os.name == 'nt' else 'clear')
@@ -114,19 +114,19 @@ class SightlineAI:
                     continue
                 
                 # Process the query
-                print("🤖 Thinking...")
+                print("Thinking...")
                 response = self.query_chatgpt(user_input)
                 self.display_response(user_input, response)
                 
             except KeyboardInterrupt:
-                print("\n👋 Goodbye!")
+                print("\n Goodbye!")
                 break
             except Exception as e:
                 print(f"Error: {e}")
 
     def test_connection(self):
         """Test the ChatGPT API connection"""
-        print("\n🔍 Testing ChatGPT API connection...")
+        print("\n Testing ChatGPT API connection...")
         test_query = "Say 'Hello from SightlineAI!' in exactly 5 words."
         
         try:
@@ -140,8 +140,8 @@ class SightlineAI:
 
 def main():
     """Main function to run SightlineAI"""
-    print("🚀 Starting SightlineAI...")
-    print(f"⏰ {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("Starting SightlineAI...")
+    print(f"{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     
     # Initialize SightlineAI
     try:
