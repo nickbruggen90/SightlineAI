@@ -1,6 +1,6 @@
 # Project Sightline AI
 
-**Real-time, hands-free AI assistant displayed on AR smart glasses for networking professionals and learners.**
+**Real-time, hands-free AI assistant displayed on AR smart glasses for professionals and learners alike.**
 
 ---
 
