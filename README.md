@@ -1,21 +1,40 @@
-# Project Sightline AI
+# SightlineAI
 
-**Real-time, hands-free AI assistant displayed on AR smart glasses for professionals and learners alike.**
-
----
+A simple, open-source AI assistant that displays ChatGPT responses as clean text on smart glasses with flexible input methods.
 
 ## Overview
 
-Project Sightline AI is a cutting-edge tool designed to empower network field technicians, engineers, and students by providing instant access to AI-generated answers via augmented reality glasses (such as XREAL Air 2). By combining OpenAI's GPT API with a minimalistic, clean-text display streamed directly to smart glasses, this project creates a seamless, distraction-free interface for hands-free troubleshooting, study, and documentation.
-
----
+SightlineAI bridges the gap between AI assistants and smart glasses by providing a lightweight, text-focused interface that works across different smart glasses platforms. No complex GUI, no distractions - just clean, readable AI responses directly in your field of vision.
 
 ## Features
 
-- **Real-time ChatGPT responses** displayed as clean, fullscreen text  
-- Supports **voice or typed input** via connected host device (laptop or Android phone)  
-- Designed for compatibility with popular AR glasses that function as external displays  
-- Portable and unobtrusive, enhancing productivity in field environments  
-- Optional features planned: auto-save notes, markdown export, font-size control, and voice commands  
+- **Clean Text Display**: Minimal, readable text formatting optimized for smart glasses
+- **Multiple Input Methods**: Voice input, phone interface, keyboard input
+- **Universal Compatibility**: Works with any smart glasses that support text display
+- **Open Source**: Free to use, modify, and contribute to
+- **Lightweight**: Simple Python implementation with minimal dependencies
+
+## Supported Smart Glasses
+
+- Even G1
+- XREAL Air 2 Pro
+- Ray-Ban Meta (text display)
+- Apple Vision Pro
+- Any smart glasses with text display capability
+
+## Use Cases
+
+- **General AI Assistant**: Ask questions, get information hands-free
+- **Study Aid**: Review materials while walking or commuting
+- **Professional Support**: Quick reference while working
+- **Accessibility**: Hands-free AI interaction for various needs
+
+### Input Methods
+- **Voice**: Continuous listening or push-to-talk
+- **Phone**: Web interface or mobile app
+- **Keyboard**: Direct text input
+- **Extensible**: Plugin architecture for new input methods
 
 ---
+
+**SightlineAI** - Making AI accessible through smart glasses, one text response at a time.
